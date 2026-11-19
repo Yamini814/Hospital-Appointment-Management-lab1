@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color: orange;" text-align: center;">Example for registartion page</h1>
+    <fieldset>
+        <label>Enter First Name:</label>
+        <input type="text" name="firstname" placeholder="enter the first name" required><br><br>
+        <label>Enter Last Name:</label>
+        <input type="text" name="lastname" placeholder="enter the last name" required><br><br>
+        <label>Enter Email:</label>
+        <input type="email" name="email" placeholder="enter the email" required><br><br>
+        <label>Enter Password:</label>
+        <input type="password" name="password" placeholder="enter the password" required><br><br>
+        <label>Enter Confirm Password:</label>
+        <input type="confirm password" name="confirm password" placeholder="enter the confirm password" required><br><br>
+        <label>Enter Mobile Number:</label>
+        <input type="mobile number" name="mobile number" placeholder="enter the mobile number" required><br><br>
+        <label>Enter Date of Birth:</label>
+        <input type="date" name="date of birth" required><br><br>
+        
+            <label for="gender">Enter Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">--Select Gender--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">--Select Country--</option>
+                <option value="india">India</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+                <option value="germany">Germany</option>
+                <option value="japan">Japan</option>
+            </select><br><br>
+
+            <div id="state-container" style="display: none;">
+                <label for="state">Select State:</label>
+                <select id="state" name="state">
+                    <option value="">--Select State--</option>
+                    <option value="andhra_pradesh">Andhra Pradesh</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="kerala">Kerala</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="tamil_nadu">Tamil Nadu</option>
+                    <option value="telangana">Telangana</option>
+                    <option value="uttar_pradesh">Uttar Pradesh</option>
+                    <option value="west_bengal">West Bengal</option>
+                </select><br><br>
+            </div>
+
+        
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+
+        </select>
+       
+    </fieldset>
+</body>
+</html>
